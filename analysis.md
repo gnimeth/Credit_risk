@@ -3,6 +3,19 @@
 * Various techniques were utilized to train and evaluate a loan risk model based on a historical lending dataset from a peer-to-peer lending company. The goal of this was to create a model that can identify the creditworthiness of borrowers.
 * The data was divided into training and testing sets using train_test_split from the sklearn.model_selection.  LogisticRegression was used from sklearn.linear_model to create a model with the original dataset.  The model's performance was evaluated by the accuracy score of the model, generating a confusion matrix, and printing out the classification report.
 
+
+## Dependencies and Setup
+
+```bash
+import numpy as np
+import pandas as pd
+from pathlib import Path
+from sklearn.metrics import balanced_accuracy_score, confusion_matrix, classification_report
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+```
+
+
 ## Results
 
 This data represents the performance of a classification model in predicting the labels of a dataset, where 0 indicates a negative class (healthy) and 1 indicates a positive class (high-risk).
