@@ -7,15 +7,17 @@
 
 This data represents the performance of a classification model in predicting the labels of a dataset, where 0 indicates a negative class (healthy) and 1 indicates a positive class (high-risk).
 
-* Machine Learning Model 1:
+## Machine Learning Model 1:
   
-  
+  ![App Screenshot](https://raw.githubusercontent.com/gnimeth/credit_risk/main/Output/Screenshot%202023-03-19%20112301.png)
   
   - The model achieved high levels of precision and recall for both labels, with a precision of 1.00 and recall of 0.99 for label 0, and a precision of 0.85 and recall of 0.89 for label 1.
   
   - In general, the model seems to be performing well in predicting both healthy and high-risk cases, but it has slightly lower accuracy for predicting high-risk cases compared to healthy cases.
 
-* Machine Learning Model 2:
+## Machine Learning Model 2:
+
+![App Screenshot](https://raw.githubusercontent.com/gnimeth/credit_risk/main/Output/Screenshot%202023-03-19%20112311.png)
 
   - The model performed well in terms of precision and recall. It had a precision score of 1.00 for label 0. For label 1, the precision score was 0.87, indicating that 87% of predicted high-risk loans were actually high-risk. 
 
